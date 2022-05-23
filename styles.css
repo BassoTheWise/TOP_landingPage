@@ -1,3 +1,13 @@
+:root {
+    --dark-bg-color: #1f2937;
+    --main-txt-color: #f9faf8;
+    --second-txt-color: #e5e7eb;
+    --button-color: #3882f6;
+    --quote-bg-color: #e5e7eb;
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -14,14 +24,14 @@ body {
     display: flex;
     width: auto;
     flex-direction: column;
-    background-color: #1f2937;
+    background-color: var(--dark-bg-color);
 }
 
 .top-div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 20vh;
+    height: 25vh;
 }
 
 .top-container {
@@ -30,9 +40,9 @@ body {
     justify-content: flex-start;
     align-items: center;
 
-    background-color: #1f2937;
+    background-color: var(--dark-bg-color);
     width: 50vh;
-    height: 15vh;
+    height: 20vh;
 }
 
 .header-row {
@@ -48,12 +58,12 @@ body {
 
 .centerpiece-left {
     margin-right: 6px;
-    color: #f9faf8;
+    color: var(--main-txt-color);
     width: inherit;
 }
 
 .centerpiece-right {
-    background-color: #838384;
+    background-color: #787879;
     color: rgb(223, 206, 206);
     width: inherit;
 
@@ -74,7 +84,7 @@ body {
 }
 
 .sign-up {
-    background-color: #3882f6; 
+    background-color: var(--button-color); 
     color: white;
     border: none;
     text-align: center;
@@ -95,7 +105,7 @@ body {
 
 .header-left{
     font-size: 24px;
-    color: #f9faf8;
+    color: var(--main-txt-color);
     font-weight: bold;
 }
 
@@ -115,18 +125,20 @@ body {
     justify-content: center;
     align-items: center;
 
+    height: 20vh;
+
     font-size: 36px;
     font-weight: 800;
-    color: #1f2937;
+    color: var(--dark-bg-color);
 
-    margin-top: 2em;
+    margin-bottom: 1.5em;
 }
 
 .four-boxes {
     display: flex;
     flex-direction: row;
     gap: 3rem;
-    margin-top: 1.5em;
+    margin-top: 1.1em;
 }
 
 .box {
@@ -136,7 +148,7 @@ body {
 }
 
 .blue-border {
-    border: solid #3882f6;
+    border: solid var(--button-color);
     border-radius: 20px;
     border-width: 4.5px;
 
@@ -153,4 +165,32 @@ body {
     word-wrap: break-word;
     padding: 0.1em;
     text-align: center;
+}
+
+.quote-container {
+    background-color: var(--quote-bg-color);
+    height: 17.5vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.main-quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--dark-bg-color);
+    max-width: 37vh;
+    word-wrap: break-word;
+}
+
+.whomst-quoted {
+    font-weight: bold;
+    align-self: auto;
+    position: relative;
+    left: 8.5em;
+    font-size: 23px;
+
 }
