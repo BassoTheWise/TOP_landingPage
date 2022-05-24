@@ -209,8 +209,8 @@ body {
     color: var(--main-txt-color);
     height: 7vh;
     border-radius: 12px;
-    min-width: 950px;
-    max-width: 45%;
+    min-width: 1150px;
+    max-width: 55%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -242,3 +242,17 @@ body {
     height: 2.5em;
     width: 8em;
 }
+
+.footer {
+    background-color: var(--dark-bg-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-txt-color);
+    font-weight: 300;
+    font-size: 26px;
+    width: 100%;
+    height: 5vh; 
+}
+
+
