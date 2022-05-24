@@ -125,9 +125,9 @@ body {
     justify-content: center;
     align-items: center;
 
-    height: 20vh;
+    height: 25vh;
 
-    font-size: 36px;
+    font-size: 42px;
     font-weight: 800;
     color: var(--dark-bg-color);
 
@@ -169,7 +169,7 @@ body {
 
 .quote-container {
     background-color: var(--quote-bg-color);
-    height: 17.5vh;
+    height: 25vh;
     
     display: flex;
     flex-direction: column;
@@ -178,7 +178,7 @@ body {
 }
 
 .main-quote {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 300;
     font-style: italic;
     color: var(--dark-bg-color);
@@ -193,4 +193,49 @@ body {
     left: 8.5em;
     font-size: 23px;
 
+}
+
+.call-to-action-container {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action {
+    background-color: var(--button-color);
+    color: var(--main-txt-color);
+    height: 7vh;
+    width: 60vw;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.cta-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-t-a-text {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.c-t-a-text2 {
+    font-size: calc(36px*0,6);
+    font-weight: 300;
+}
+
+.sign-up-2 {
+    border: 5px solid var(--main-txt-color);
+    border-radius: 8px;
+    text-align: center;
+    height: 2em;
+    width: 7em;
 }
